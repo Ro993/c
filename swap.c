@@ -1,6 +1,6 @@
 #include<stdio.h>
 int main(){
-	int a=3 w0;
+	int a=30;
 	int b=20;
 	printf("enter the number %d a=", a);
 	printf("enter the number %d b=", b);
