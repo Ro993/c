@@ -6,7 +6,7 @@ int main() {
     printf("Enter a number ");
     scanf("%f", &a);
     
-    if (a - (int)a != 0.0) {
+    if () {
         printf("This is a float value ");
     } else {
         printf("This is a integer value");
