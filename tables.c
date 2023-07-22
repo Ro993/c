@@ -5,7 +5,7 @@ int main()
     int rows = 10;
     int cols = 10;
 
-    printf("Multiplication Table from 1 to 10 \n");
+    printf("Table from 1 to 10 \n");
 
     int i = 1;
 
