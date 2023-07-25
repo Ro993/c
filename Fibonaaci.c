@@ -9,11 +9,11 @@ int main() {
     printf("Fibonacci Series here= ");
     
     for (i = 1; i <= n; ++i) {
-        printf("%d, ", num1);
+        printf("%d ", num1);
         nextNum = num1 + num2;
         num1 = num2;
         num2 = nextNum;
     }
-    
+        // printf("%d ", nextNum);
     return 0;
 }

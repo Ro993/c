@@ -1,6 +1,6 @@
 #include<stdio.h>
 int main(){
-    int num =16;
+    int num =565;
     int rem,sum=0;
     int temp=num;
     while(num>0){
