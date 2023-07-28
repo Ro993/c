@@ -21,7 +21,7 @@ int main() {
         convertedTemp = (temp - 32) * 5 / 9;
         printf("Temperature in Celsius: %f\n", convertedTemp);
     } else {
-        printf("Mosam bigdne wal hain");
+        printf("Mosam bigdne wala hain");
     }
 
     return 0;

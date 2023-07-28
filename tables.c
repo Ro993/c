@@ -1,26 +1,18 @@
 #include <stdio.h>
 
-int main()
-{
-    int rows = 10;
-    int cols = 10;
+int main() {
+    int range;
 
-    printf("Table from 1 to 10 \n");
+    printf("Enter the range for multiplication tables: ");
+    scanf("%d", &range);
 
-    int i = 1;
-
-    while (i <= rows)
-    {
-        int j = 1; //
-
-        while (j <= cols)
-        {
-            printf(" %d\n", i * j);
-            j++;
+    // Print multiplication tables from 1 to the given range
+    for (int i = 1; i <= range; i++) {
+        printf("Multiplication table of %d:\n", i);
+        for (int j = 1; j <= 10; j++) {
+            printf("%d x %d = %d\n", i, j, i * j);
         }
-
         printf("\n");
-        i++;
     }
 
     return 0;
